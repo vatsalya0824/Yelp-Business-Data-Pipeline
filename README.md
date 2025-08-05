@@ -94,6 +94,8 @@ Orchestrated using **Databricks Jobs** with DAG dependencies.
 - Rename columns to avoid conflicts
 - Left joins to retain max info
 
+![Image](https://github.com/user-attachments/assets/ad1493bf-0fca-4d29-877a-d4dc9861d2b0)
+
 ## 4. Lambda Function as Orchestration Trigger
 
 - Triggered on new file in `yelprawdata` S3 bucket
@@ -105,7 +107,8 @@ Orchestrated using **Databricks Jobs** with DAG dependencies.
 
 - **Glue Crawler** scans Parquet and updates schema
 - **Athena** used for querying unified table
-
+  
+![Image](https://github.com/user-attachments/assets/89a0589f-7eae-4758-b7b4-bf7539279299)
 
 
 ## 6. Visualization and Machine Learning
@@ -121,6 +124,7 @@ Orchestrated using **Databricks Jobs** with DAG dependencies.
   - Cluster businesses
 
 ---
+![Image](https://github.com/user-attachments/assets/534f6c7a-8881-4f85-99ac-309bebdb930b)
 
 ## 7. Graph Analytics with Neo4j AuraDB
 
